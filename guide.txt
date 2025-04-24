@@ -1,0 +1,11 @@
+parent font glida display
+h1 wight 400
+size 48px
+
+background: linear-gradient(90deg, #134E88 27%, #01689B 40%, #21BCEC 98%);
+
+
+p 
+monstserrrat
+400 ,16px;
+
