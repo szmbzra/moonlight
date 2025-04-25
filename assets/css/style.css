@@ -1,13 +1,9 @@
+/* fonts hello*/
 @import url("https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --font-gilda: "Gilda Display", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
-  --color-gradient: linear-gradient(
-    90deg,
-    #134e88 27%,
-    #01689b 40%,
-    #21bcec 98%
-  );
+  --color-gradient: linear-gradient(90deg, #134E88 27%, #01689B 40%, #21BCEC 98%);
   --color-blue: #033853;
 }
 
@@ -33,7 +29,7 @@ small {
 body {
   overflow-x: hidden;
   width: 100%;
-  background: #f8f8f8;
+  background: #F8F8F8;
 }
 
 .section-bottom-margin {
@@ -59,7 +55,7 @@ body {
 .gradient-color-border {
   border: 5px solid transparent;
   -o-border-image: var(--color-gradient);
-  border-image: var(--color-gradient);
+     border-image: var(--color-gradient);
   border-image-slice: 1;
   padding: 10px;
 }
@@ -74,8 +70,7 @@ a:link:focus-visible {
   outline: unset;
 }
 
-.dropdown-item.active,
-.dropdown-item:active {
+.dropdown-item.active, .dropdown-item:active {
   background: unset !important;
 }
 
@@ -175,7 +170,7 @@ a:link:focus-visible {
 .homepage-wrapper .figure img {
   height: 100vh;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .homepage-wrapper .figure .fig_slider_text {
   bottom: 20px;
@@ -281,29 +276,29 @@ a:link:focus-visible {
   gap: 8px;
 }
 .about_collage .image_abt_1 {
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
+  grid-column: span 2/span 2;
+  grid-row: span 4/span 4;
 }
 .about_collage .image_abt_2 {
-  grid-column: span 2 / span 2;
-  grid-row: span 5 / span 5;
+  grid-column: span 2/span 2;
+  grid-row: span 5/span 5;
   grid-column-start: 3;
 }
 .about_collage .image_abt_3 {
-  grid-column: span 2 / span 2;
-  grid-row: span 3 / span 3;
+  grid-column: span 2/span 2;
+  grid-row: span 3/span 3;
   grid-column-start: 1;
   grid-row-start: 5;
 }
 .about_collage .image_abt_4 {
-  grid-column: span 2 / span 2;
-  grid-row: span 2 / span 2;
+  grid-column: span 2/span 2;
+  grid-row: span 2/span 2;
   grid-column-start: 3;
   grid-row-start: 6;
 }
 .about_collage .image_abt_5 {
-  grid-column: span 2 / span 2;
-  grid-row: span 7 / span 7;
+  grid-column: span 2/span 2;
+  grid-row: span 7/span 7;
   grid-column-start: 5;
   grid-row-start: 1;
 }
@@ -334,7 +329,7 @@ a:link:focus-visible {
   width: 336px;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 /* facilities homepage end*/
@@ -369,8 +364,7 @@ a:link:focus-visible {
 }
 .facilities_wrapper .facilities_icons img {
   width: 50px;
-  filter: brightness(0) saturate(100%) invert(20%) sepia(6%) saturate(6948%)
-    hue-rotate(157deg) brightness(92%) contrast(102%);
+  filter: brightness(0) saturate(100%) invert(20%) sepia(6%) saturate(6948%) hue-rotate(157deg) brightness(92%) contrast(102%);
   margin-bottom: 10px;
 }
 .facilities_wrapper .facilities_icons span {
@@ -404,7 +398,7 @@ a:link:focus-visible {
   max-height: 100%;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .room_listing-wrapper a:link,
 .room_listing-wrapper a,
@@ -468,9 +462,7 @@ a:link:focus-visible {
   flex-shrink: 0;
   margin-top: 3px;
 }
-.room_details h2,
-h6.amenities_bg,
-.dining_info > h2 {
+.room_details h2, h6.amenities_bg, .dining_info > h2 {
   color: var(--color-blue);
 }
 
@@ -483,7 +475,7 @@ h6.amenities_bg,
 .room-slider .item img {
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .room-slider .owl-nav {
   position: absolute;
@@ -496,19 +488,15 @@ h6.amenities_bg,
 }
 
 /* room amenities */
-.room_details .room_amenities .room__icons,
-.dining_details .room_amenities .room__icons {
+.room_details .room_amenities .room__icons, .dining_details .room_amenities .room__icons {
   background-color: #f6e8d1;
   padding: 2rem 1.1rem;
 }
-.room_details .room_amenities .room__icons img,
-.dining_details .room_amenities .room__icons img {
+.room_details .room_amenities .room__icons img, .dining_details .room_amenities .room__icons img {
   width: 50px;
-  filter: brightness(0) saturate(100%) invert(62%) sepia(0%) saturate(1219%)
-    hue-rotate(229deg) brightness(74%) contrast(72%);
+  filter: brightness(0) saturate(100%) invert(62%) sepia(0%) saturate(1219%) hue-rotate(229deg) brightness(74%) contrast(72%);
 }
-.room_details .room_amenities .room__icons p,
-.dining_details .room_amenities .room__icons p {
+.room_details .room_amenities .room__icons p, .dining_details .room_amenities .room__icons p {
   margin-bottom: 0;
 }
 
@@ -547,8 +535,7 @@ h6.amenities_bg,
 .dining_details table * {
   background: transparent !important;
 }
-.dining_details table tr th,
-.dining_details table tr td {
+.dining_details table tr th, .dining_details table tr td {
   padding: 15px;
 }
 
@@ -559,8 +546,7 @@ h6.amenities_bg,
   display: block;
   margin-bottom: 1rem;
   margin-inline: auto;
-  filter: brightness(0) saturate(100%) invert(16%) sepia(22%) saturate(4392%)
-    hue-rotate(174deg) brightness(89%) contrast(98%);
+  filter: brightness(0) saturate(100%) invert(16%) sepia(22%) saturate(4392%) hue-rotate(174deg) brightness(89%) contrast(98%);
 }
 
 /* hall section end */
@@ -620,8 +606,7 @@ h6.amenities_bg,
   background-color: white;
   padding: 0 5px;
 }
-.contact__us_wrapper input:not(:-moz-placeholder-shown) + label,
-.contact__us_wrapper textarea:not(:-moz-placeholder-shown) + label {
+.contact__us_wrapper input:not(:-moz-placeholder-shown) + label, .contact__us_wrapper textarea:not(:-moz-placeholder-shown) + label {
   top: -10px;
   font-size: 12px;
   color: var(--color-blue);
@@ -700,8 +685,7 @@ h6.amenities_bg,
   font-size: 2.5rem;
   color: var(--color-blue);
 }
-.contact__us_wrapper a,
-.contact__us_wrapper p {
+.contact__us_wrapper a, .contact__us_wrapper p {
   color: #000000;
   font-family: var(--font-gilda);
   font-size: 1.3125rem;
@@ -746,7 +730,7 @@ h6.amenities_bg,
 }
 .footer-section .copyright {
   font-size: 13px;
-  color: #f8f8f8;
+  color: #F8F8F8;
 }
 .footer-section .copyright a {
   font-size: 13px;
@@ -779,7 +763,7 @@ h6.amenities_bg,
 }
 .owl-testimonial p {
   font-size: 15px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .owl-testimonial .owl-nav {
   text-align: center;
@@ -955,54 +939,53 @@ h6.amenities_bg,
 
 #submit {
   width: 150px;
-}
-@media (min-width: 767px) {
+}@media (min-width: 767px){
   .facilites-homepage .fac-img-1 {
-    grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
+    grid-column: span 2/span 2;
+    grid-row: span 3/span 3;
   }
   .facilites-homepage .fac-img-2 {
-    grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
+    grid-column: span 2/span 2;
+    grid-row: span 3/span 3;
     grid-column-start: 1;
     grid-row-start: 4;
   }
   .facilites-homepage .fac-img-3 {
-    grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
+    grid-column: span 2/span 2;
+    grid-row: span 3/span 3;
     grid-column-start: 3;
     grid-row-start: 2;
   }
   .facilites-homepage .fac-img-4 {
-    grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
+    grid-column: span 2/span 2;
+    grid-row: span 2/span 2;
     grid-column-start: 3;
     grid-row-start: 5;
   }
   .facilites-homepage .fac-img-5 {
-    grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
+    grid-column: span 2/span 2;
+    grid-row: span 3/span 3;
     grid-column-start: 5;
     grid-row-start: 1;
   }
   .facilites-homepage .fac-img-6 {
-    grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
+    grid-column: span 2/span 2;
+    grid-row: span 3/span 3;
     grid-column-start: 5;
     grid-row-start: 4;
   }
   .facilites-homepage .fac-img-7 {
-    grid-column: span 2 / span 2;
+    grid-column: span 2/span 2;
     grid-column-start: 3;
     grid-row-start: 1;
   }
   .facilites-homepage .fac-img-8 {
-    grid-row: span 2 / span 2;
+    grid-row: span 2/span 2;
     grid-column-start: 7;
     grid-row-start: 1;
   }
   .facilites-homepage .fac-img-9 {
-    grid-row: span 3 / span 3;
+    grid-row: span 3/span 3;
     grid-column-start: 7;
     grid-row-start: 3;
   }
@@ -1010,8 +993,7 @@ h6.amenities_bg,
     grid-column-start: 7;
     grid-row-start: 6;
   }
-}
-@media (min-width: 768px) {
+}@media (min-width: 768px){
   .about__us .custom-lh {
     line-height: 1.2;
   }
@@ -1029,29 +1011,21 @@ h6.amenities_bg,
   .facilites-homepage ::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-}
-@media (min-width: 992px) {
+}@media (min-width: 992px){
   .hall-section {
     background-attachment: fixed;
   }
-}
-@media (min-width: 1200px) {
+}@media (min-width: 1200px){
   .facilites-homepage .facilites-image::after {
     position: absolute;
     content: "";
     width: 100%;
     height: 100%;
     background: #ffffff;
-    background: linear-gradient(
-      0deg,
-      rgb(248, 248, 248) 0%,
-      rgba(248, 248, 248, 0) 50%,
-      rgb(248, 248, 248) 100%
-    );
+    background: linear-gradient(0deg, rgb(248, 248, 248) 0%, rgba(248, 248, 248, 0) 50%, rgb(248, 248, 248) 100%);
     z-index: 1;
   }
-}
-@media (max-width: 1199px) {
+}@media (max-width: 1199px){
   .banner_section {
     height: 50vh;
   }
@@ -1066,8 +1040,7 @@ h6.amenities_bg,
     background: unset;
     padding: 24px 0;
   }
-}
-@media (max-width: 991px) {
+}@media (max-width: 991px){
   h1,
   h2,
   h3,
@@ -1096,16 +1069,14 @@ h6.amenities_bg,
   .owl-testimonial .owl-nav {
     margin-top: 2rem;
   }
-}
-@media (max-width: 767px) {
+}@media (max-width: 767px){
   .banner_section h1 {
     font-size: 1.5rem;
   }
   .owl-testimonial .profile__name h6 {
     font-size: 0.9375rem !important;
   }
-}
-@media (max-width: 575px) {
+}@media (max-width: 575px){
   h1,
   h2,
   h3,
@@ -1153,7 +1124,7 @@ h6.amenities_bg,
     padding: 8.4px 13px;
   }
   .homepage-wrapper .owl-nav button i {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
   }
   .kathmandu-tourism-hub h1 {
     font-size: 1.2rem;
@@ -1220,8 +1191,7 @@ h6.amenities_bg,
   .room_side-icons .room__icons {
     margin-bottom: 2rem;
   }
-  .contact__us_wrapper a,
-  .contact__us_wrapper p {
+  .contact__us_wrapper a, .contact__us_wrapper p {
     font-size: 1rem;
   }
   .footer-section h3 {
